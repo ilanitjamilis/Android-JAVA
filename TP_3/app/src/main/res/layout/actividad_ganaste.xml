@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ILANIT JAMILIS - TP°3 - 6°IB 2017 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a42102869.tp_2.ActividadPrincipal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="230dp"
+        android:id="@+id/fotoResultado"/>
+
+    <TextView
+        android:id="@+id/textViewMotivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Movimientos:"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/textViewMovimientos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tu récord:"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewMovimientosMaximos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVolverAJugar"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="18dp"
+        android:onClick="irModosJuego"
+        android:text="Volver a jugar"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnVolverInicio"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:onClick="irPantallaPrincipal"
+        android:text="Volver a inicio"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Únicamente se considera ganado el juego cuando superas tu propio récord"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+</LinearLayout>

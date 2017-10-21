@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/fondo_redondeado"
+                android:backgroundTint="#764E7F"
+                android:paddingTop="6dp"
+                android:text="Ingrese su usuario"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/usuarioRegistracion"
+                android:layout_width="250dp"
+                android:hint="-----------------------"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/fondo_redondeado"
+                android:backgroundTint="#EC9CFF"
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/fondo_redondeado"
+                android:backgroundTint="#764E7F"
+                android:paddingTop="6dp"
+                android:text="Ingrese su contraseña"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/contraseñaRegistracion"
+                android:layout_width="250dp"
+                android:hint="***********"
+                android:inputType="textPassword"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/fondo_redondeado"
+                android:backgroundTint="#EC9CFF"
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/btnEntrar"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/fondo_redondeado"
+            android:backgroundTint="#764E7F"
+            android:textAllCaps="false"
+            android:text="Entrar"
+            android:textColor="#ECBEFF"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/btnCrearUsuario"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/fondo_redondeado"
+            android:backgroundTint="#764E7F"
+            android:textColor="#ECBEFF"
+            android:textAllCaps="false"
+            android:text="Crear nuevo usuario"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ILANIT JAMILIS - TP°3 - 6°IB 2017 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a42102869.tp_2.ActividadDatosParaJugar"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete los siguientes datos:"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNombre"
+            android:textSize="35dp"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Captcha:"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/textViewCaptcha"
+            android:layout_marginRight="20dp"
+            android:text="XXX"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextCaptcha"
+            android:textSize="35dp"
+            android:inputType="number"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnJuegoNormal"
+        android:layout_width="258dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:onClick="irModosJuego"
+        android:text="Aceptar"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="50dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/btnVolverAJugar"
+        android:layout_width="258dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="irPantallaPrincipal"
+        android:text="Volver atrás"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

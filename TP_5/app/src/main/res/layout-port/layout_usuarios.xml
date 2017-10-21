@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="Usuarios"
+                android:background="@drawable/fondo_redondeado"
+                android:backgroundTint="#764E7F"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textAlignment="center" />
+
+            <ListView
+                android:id="@+id/listaUsuarios"
+                android:layout_width="320dp"
+                android:layout_height="385dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+            </ListView>
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="Ir a inicio"
+                android:background="@drawable/fondo_redondeado"
+                android:backgroundTint="#764E7F"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/irInicio"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

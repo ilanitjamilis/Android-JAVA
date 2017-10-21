@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#764E7F"
+                    android:paddingTop="6dp"
+                    android:text="Ingrese usuario"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/usuarioParaRegistracion"
+                    android:layout_width="260dp"
+                    android:hint="-----------------------"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#EC9CFF"
+                    android:textAlignment="center"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#764E7F"
+                    android:paddingTop="6dp"
+                    android:text="Ingrese contraseña"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/contraseñaParaRegistracion"
+                    android:layout_width="260dp"
+                    android:hint="***********"
+                    android:inputType="textPassword"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#EC9CFF"
+                    android:textAlignment="center"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#764E7F"
+                    android:paddingTop="6dp"
+                    android:text="Repita la contraseña"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/contraseñaParaRegistracion2"
+                    android:layout_width="260dp"
+                    android:hint="***********"
+                    android:inputType="textPassword"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#EC9CFF"
+                    android:textAlignment="center"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#764E7F"
+                    android:paddingTop="6dp"
+                    android:text="Edad"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edadParaRegistracion"
+                    android:layout_width="260dp"
+                    android:hint="-----------------------"
+                    android:inputType="number"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#EC9CFF"
+                    android:textAlignment="center"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#764E7F"
+                    android:paddingTop="6dp"
+                    android:text="¿Sos un empleado?"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:scaleX="2.0"
+                    android:scaleY="2.0"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:id="@+id/empleadoParaRegistracion"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="240dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnLoguearUsuario"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/fondo_redondeado"
+                    android:backgroundTint="#764E7F"
+                    android:textAllCaps="false"
+                    android:text="Aceptar"
+                    android:textColor="#ECBEFF"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

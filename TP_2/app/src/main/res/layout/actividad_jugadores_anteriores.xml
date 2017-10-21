@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ILANIT JAMILIS - TP°2 - 6°IB 2017 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a42102869.tp_2.ActividadJugadoresAnteriores">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jugadores Anteriores"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:id="@+id/listaJugadores">
+        </ListView>
+
+        <Button
+            android:id="@+id/btnVolverAJugar"
+            android:layout_width="300dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:onClick="irAtras"
+            android:text="Volver atrás"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

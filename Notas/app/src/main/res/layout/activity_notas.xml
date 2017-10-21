@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anahisaccone.notass.Notas">
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:layout_below="@+id/pager"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:id="@+id/Atras"
+        android:text="Atrás"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="#FF45"
+        android:layout_marginLeft="50dp"
+        android:onClick="notaAnterior"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:id="@+id/Adenlante"
+        android:text="Adelante"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="#FF45"
+        android:layout_marginRight="50dp"
+        android:onClick="notaSiguiente"
+        android:layout_below="@+id/pager"
+        android:layout_toEndOf="@+id/Atras"
+        android:layout_marginStart="46dp" />
+
+</RelativeLayout>
+

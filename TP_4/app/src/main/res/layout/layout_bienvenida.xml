@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.37"
+        android:background="@android:color/transparent"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIngresar"
+        android:background="@drawable/fondo_redondeado"
+        android:backgroundTint="#A54FFF"
+        android:text="Ingresar"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="30dp"
+        android:textSize="40dp"/>
+
+</LinearLayout>
